@@ -3,7 +3,7 @@
 ## PHP CS Fixer
 
 ```bash
-composer i --dev friendsofphp/php-cs-fixer
+composer require --dev friendsofphp/php-cs-fixer
 ```
 
 ```json
@@ -19,5 +19,5 @@ npm i --save-dev prettier @ianvs/prettier-plugin-sort-imports @shufo/prettier-pl
 ```
 
 ```json
-"format": "prettier --write --ignore-path .prettierignore ."
+"format": "prettier --write --ignore-path .gitignore ."
 ```
